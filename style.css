@@ -1,0 +1,38 @@
+body{
+    background-color: #1A5EAD;
+}
+.header{
+    background-color: #38DFE0;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #0E0080;
+}
+h1{
+    color: #4096B8;
+}
+.item{
+    position:relative
+
+}
+.item h2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+
+}
+.item:hover h2{
+    opacity:1;
+}
